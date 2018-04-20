@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+}
+
+.btext{
+    color: #58595b;
+    position: absolute;
+    text-align: center;
+    top: 35%;
+    width: 100%;
+    line-height: 0.4em;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.btn{
+    color: #58595b;
+    text-decoration: none;
+    border: #fbae17 1px solid;
+    padding: 10px 15px;
+    border-radius: 8px;
+    line-height: 6em;
+}
+
+.btn:hover{
+    color: #000000;
+    border: #fbae17 2px solid;
+}
+
+#particles-js{
+    background-image: url('bg.png');
+    height: 100vh;
+}
